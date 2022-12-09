@@ -11,4 +11,13 @@ export class AppComponent {
   Greeting(){
     return 'Namaste!!'
   }
+  getName(){
+    alert('Function called')
+  }
+  getName2(surname:string){
+    alert(surname)
+  }
+  Details(Fname:string,age:number){
+    alert('Name is'+Fname+'  Age is'+age)
+  }
 }
